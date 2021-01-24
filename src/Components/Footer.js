@@ -1,4 +1,7 @@
 import React from 'react';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Footer = () => {
 
@@ -6,9 +9,9 @@ const Footer = () => {
         <div className="footer">
             <p> copyright @2021</p>
             <div className="social">
-                <i className="fa fa-facebook"></i>
-                <i className="fa fa-instagram"></i>
-                <i className="fab fa-500px"></i>
+                <FacebookIcon />
+                <InstagramIcon />
+                <TwitterIcon />
             </div>
         </div>
     );

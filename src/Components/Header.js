@@ -1,4 +1,6 @@
 import React from 'react';
+import SearchIcon from '@material-ui/icons/Search';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 const Header = () => {
 
@@ -11,9 +13,9 @@ const Header = () => {
                 <li>About Us</li>
                 <li>Contact</li>
             </ul>
-            <div className="Search">
-                <i className = "fa fa-search"></i>
-                <i className = "fa fa-shopping-basket"></i>
+            <div className="search">
+                <SearchIcon />
+                <ShoppingCartIcon />
             </div>
         </nav>
     );
