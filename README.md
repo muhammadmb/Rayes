@@ -1,2 +1,2 @@
 # Rayes
-E-Commerce product by React
+simple E-Commerce web application design by React
